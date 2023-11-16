@@ -1,0 +1,29 @@
+@import 'MediaQ';
+.container-trabajos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    h2{
+        font-family: 'Roboto', sans-serif;
+        font-size: 3rem;
+        margin-top: 12rem;
+        color: dimgrey;
+        @include mobile{
+            font-size: 1.5rem;
+            text-align: center;
+        }
+          
+    }
+    .trabajos-uno {
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5rem;
+        z-index: -1;
+
+        img {
+            width: 32%;
+            margin: 5px;
+        }
+    }
+}

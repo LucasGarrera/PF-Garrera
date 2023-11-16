@@ -1,0 +1,24 @@
+@import 'MediaQ';
+.iconos-contactos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    @include mobile{
+        gap: 2rem;
+    }
+
+    .c-icon {
+        width: 10rem;
+        margin-top: 12rem;
+        transition: all 2s;
+
+        &:hover {
+            transform: rotate(360deg)
+        }
+        @include mobile{
+            width: 6rem;
+        }
+    }
+}

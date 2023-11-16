@@ -1,0 +1,64 @@
+
+/* contactos */
+.container-contactos img {
+    width: 100%;
+}
+
+/* BLog */
+.container-blog img{
+    width: 100%;
+}
+.container-blog h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+    font-family: sans-serif;
+}
+
+/* trabajos realizados */
+.container-trabajos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-trabajos img {
+    width: 32%;
+    margin: 5px;
+}
+
+.trabajos-uno {
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7rem;
+
+}
+
+/* media queries mobile */
+@media (max-width: 480px) {
+    .container-section1 h1 {
+        font-size: 2.5rem;
+    }
+
+    .container-section1 h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .container-servicios-index {
+        display: block;
+    }
+
+    .container-servicios-index div {
+        margin-bottom: 50px;
+    }
+}
+
+/* media queries tablet */
+@media (max-width: 768px) {
+    .container-servicios-index {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+}

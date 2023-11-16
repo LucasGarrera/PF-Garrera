@@ -1,0 +1,36 @@
+footer{
+    margin-top: 10rem;
+    div{
+        display: flex;
+        justify-content: center;
+        a{
+            padding: 5px;
+        }
+    }
+    .comunicate {
+        font-family: principal-font;
+        font-size: 1rem;
+        text-align: center;
+        color: gray;
+    }
+    
+    .iconos{
+        img{
+            width: 2rem;
+            transition: all 2s;
+
+        &:hover {
+            transform: rotate(360deg)
+        }
+        }
+
+    }
+    
+    .logo-fo {
+        width: 6rem;
+    }
+    .by p {
+        justify-content: center;
+        margin-top: 1rem;
+    }
+}
