@@ -1,3 +1,16 @@
+@mixin estilo-p-qh {
+    font-size: 1.7rem;
+    font-family: principal-font;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    @include mobile {
+        font-size: 1rem;
+    }
+    @include tablet {
+        font-size: 1.2rem;
+    }
+}
 .container-servicios {
    
     .p1-servicios {
@@ -52,19 +65,8 @@
             }
         }
 
-        p {
-            font-size: 1.7rem;
-            font-family: principal-font;
-            margin-left: 4rem;
-            margin-right: 4rem;
-            margin-top: 2rem;
-            @include mobile{
-                font-size: 1rem;
-            }
-            @include tablet{
-                font-size: 1.2rem;
-            }
-            
+        .p2-serv {
+            @include estilo-p-qh;            
         }
     }
 }    
